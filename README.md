@@ -19,14 +19,14 @@ pycharm可以做類似的事
 >python3 -m pip install --user --upgrade setuptools wheel
 
 ## 確認__INIT__.py、setup.py、README.md、LICENSE和模組都ready後
-###under packaging/
+under packaging/
 >python3 setup.py sdist bdist_wheel
 
 ## 生成dist/
-### source code archive
-packaging-example-0.0.1.tar.gz 
-### build distribution
-packaging_example-0.0.1-py3-none-any.whl 
+source code archive
+>packaging-example-0.0.1.tar.gz 
+build distribution
+>packaging_example-0.0.1-py3-none-any.whl 
 
 ## upload to TestPyPI
 >python3 -m pip install --user --upgrade twine
