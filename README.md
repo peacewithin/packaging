@@ -7,6 +7,7 @@ pycharm可以做類似的事
 
 ## 進入虛擬環境
 >virtual env packaging
+
 >cd packaging
 
 ## 進行版本控制
@@ -17,8 +18,8 @@ pycharm可以做類似的事
 ## 升級最新套件 (optional)
 >python3 -m pip install --user --upgrade setuptools wheel
 
-# 確認__INIT__.py、setup.py、README.md、LICENSE和模組都ready後
-**#在packaging/下**
+## 確認__INIT__.py、setup.py、README.md、LICENSE和模組都ready後
+###under packaging/
 >python3 setup.py sdist bdist_wheel
 
 # 生成dist/
