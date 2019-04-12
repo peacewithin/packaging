@@ -1,6 +1,18 @@
 # Example Package
 Packaging on Windows10
 
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
+  
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
 ## 安裝虛擬環境virtualenv
 pycharm可以做類似的事
 >pip install virtualenv
